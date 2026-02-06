@@ -1,4 +1,4 @@
-1) Instructions on how to run
+Instructions on how to run
 
 To run, install Java 21
 
@@ -25,6 +25,8 @@ Change the workspace directory to the checkout directory
 Main class is org.flowenergy.csv.DataParses
 
 
+
+
 Interview Questions
 
 1.Why did I use the technology I used?
@@ -44,3 +46,4 @@ The fields as well as the integrity of the file would have to be checked also, m
 
 The original plan was to just parse the data as is and then from there reconstruct it, but having read the spec that it needs to run in prod, 300 entries had their reading flattened to a sum so Java could do garbage collection if data would be too much
 There was an option to create a cleaner version without completely parsing the objects in their original form, but considering both the time frame, the extensibility of the current solution as well as the rework needed to do that, it was kept as is.
+
